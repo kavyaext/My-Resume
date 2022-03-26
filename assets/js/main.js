@@ -5,14 +5,12 @@ const setTitle = data => {
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
    document.querySelector('#aboutIntro').innerHTML = data.about.objective;
-  //document.querySelector('#aboutdec').innerHTML='stinh';
    document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
-  document
+   document
     .querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
-  document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  /* document.querySelector('#contactAddress').innerHTML =
-    data.about.contact.address; */
+   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
+  
 };
 
 const setLinks = links => {
@@ -37,41 +35,6 @@ const setLinks = links => {
     linksList.appendChild(li);
   });
 };
-/*  
-education=[
-    {
-      alma: 'Lorem Ipsum',
-      duration: '1978 - 1980',
-      std: 'MSC',
-      score: '99.99%'
-    },
-    {
-      alma: 'Dotor Sit Amet',
-      duration: '1975 - 1977',
-      std: 'SomeThing',
-      score: '99.99%'
-    }
-  ],
-  ul=<ul id="educationList"></ul>
-  edu={
-      alma: 'Lorem Ipsum',
-      duration: '1978 - 1980',
-      std: 'MSC',
-      score: '99.99%'
-    },
-  <ul>
-    <li>
-      <div class='edu-header'>
-        <span class='edu-alma'>Lorem Ipsum</span>
-        <span class='edu-duration'>1978 - 1980</span>
-      </div>
-      <div class='edu-class-data'>
-        <span class='edu-std'>MSC</span>
-        <span class='edu-score'>99.99%</span>
-      </div>
-    </li>
-  </ul>
-*/
 
 const setEducation = education => {
   const ul = document.querySelector('#educationList');
@@ -170,10 +133,7 @@ const setSkills = skills => {
     const catSkillItem = document.createElement('li');
     catSkillItem.className = 'cat-skill-item';
 
-    //const catSkillType = document.createElement('div');
-    //catSkillType.className = type_klass;
-    //catSkillType.innerHTML = skill.category;
-    //catSkillItem.appendChild(catSkillType);
+    
 
     const catSkillBody = document.createElement('div');
     catSkillBody.className = body_klass;
@@ -234,11 +194,7 @@ const setInternship = internship => {
     expTitle.innerHTML = exper.date;
     expSub.appendChild(expTitle);
 
-    // const expDura = document.createElement('span');
-    // expDura.className = 'ach-duration';
-    // expDura.innerHTML = exper.date;
-    // expSub.appendChild(expDura);
-
+   
     expItem.appendChild(expSub);
 
     expListItem.appendChild(expItem);
@@ -354,7 +310,7 @@ const setDeclaration =declaration =>{
 };
 
 
-//  Entry Function, IIFE
+
 (() => {
   // Call functions to load 
   
