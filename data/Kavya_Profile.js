@@ -40,27 +40,27 @@ const profileData = {
       topics: ['C Programming']
     },
     {
-      //category: 'Sed / Eiusmod',
+      
       topics: [
         'Python (Basics)',
        
       ]
     },
     {
-      //category: 'Minim Veniam',
+      
       topics: ['HTML']
     },
 
     {
-      //category: 'Minim Veniam',
+      
       topics: ['CSS']
     },
     {
-      //category: 'Minim Veniam',
+      
       topics: ['Javascript (Basics)']
     },
     {
-      //category: 'Minim Veniam',
+      
       topics: ['Java']
     }
 
@@ -90,7 +90,6 @@ const profileData = {
   internship: [
     {
       organization: 'TCR INNOVATION',
-      // title: `General`,
       date: 'Oct 2021 - Dec 2021',
       details: [
         'Front-End developer.'
@@ -98,7 +97,6 @@ const profileData = {
     },
     {
       organization: 'EXPOSYS DATA LAB',
-      //title: `Soldier`,
       date: 'May 2021 - Jun 2021',
       details: [
         `Software development.`
@@ -106,8 +104,7 @@ const profileData = {
     },
     {
     organization: 'NSIC (National Small Industries Corporation)',
-      //title: `Soldier`,
-      date: 'Nov 2020',
+     date: 'Nov 2020',
       details: [
         `App Development and IoT.`
       ]
@@ -132,29 +129,7 @@ const profileData = {
     }
   ],
   
-  // events: [
-  //   {
-  //   title:'TCR INNOVATION',
-  //   body:[{
-  //         desc: `Frond-End developer.`,
-  //         date: 'Aug 1917'
-  //       }]
-  //   },
-  //   {
-  //     title:'EXPOSYS DATA LAB',
-  //     body:[{
-  //           desc:'SOFTWARE DEVELOPMENT.',
-  //           date: 'Jul 1945'
-  //         }]
-  //     },
-  //   {
-  //   title:'NSIC (National Small Industries Corporation)',
-  //   body:[{
-  //         desc:'App Development and IoT.',
-  //         date: 'Jul 1945'
-  //       }]
-  //   }
-  //   ]
+  
 declaration:
     {
       desc:'I hereby declare that the above particulars of facts and information stated are true, correct and complete to the best of my belief and knowledge.',
